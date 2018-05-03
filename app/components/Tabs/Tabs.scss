@@ -1,0 +1,39 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__labels {
+    height: 32px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        padding: 8px 12px;
+        display: block;
+        color: #65737E;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+
+        &.active {
+          color: #5FB3B3;
+          border-bottom-color: #5FB3B3;
+        }
+
+        i {
+          margin-left: 12px;
+          font-size: 8px;
+        }
+      }
+    }
+  }
+  &__content {
+    flex: auto;
+    padding: 16px;
+    color: #CDD3DE;
+    overflow: auto;
+  }
+}

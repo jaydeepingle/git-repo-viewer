@@ -1,0 +1,17 @@
+.tree {
+  padding-top: 12px;
+  h5, i {
+    display: inline;
+    cursor: pointer;
+  }
+
+  i {
+    margin-right: 5px;
+  }
+
+  ul {
+    li {
+      margin-left: 12px;
+    }
+  }
+}
